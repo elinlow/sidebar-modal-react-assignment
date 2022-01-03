@@ -16,6 +16,11 @@ body {
   font-family: 'Pushster', cursive;
 }
 
+.App {
+  position: relative;
+  height: 100vh;
+}
+
 .sidebar {
   height: 100%;
   width: 0;
@@ -93,6 +98,15 @@ body {
 
 .modalbtn {
   font-family: 'Pushster', cursive;
+}
+
+#modal-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
 }
 
 
